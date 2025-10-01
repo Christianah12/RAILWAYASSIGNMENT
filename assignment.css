@@ -1,0 +1,86 @@
+body{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.main-header{
+    background-color: rgb(51, 17, 83);
+    height: 3ovh;
+}
+.logo{
+    padding: 10px;
+}
+.inside-header{
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.img{
+    padding: 20px;
+
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+    /* justify-items: normal; */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav ul li{
+    justify-content: space-between;
+    align-items: center;
+    /* align-content: center; */
+    padding: 10px;
+    margin: 15x;
+    font-size: 20px
+}
+.nav ul li a{
+text-decoration: none;
+color: white;
+}
+.section{
+    height: 100vh;
+    /* background-color: aqua; */
+    background-image: url("image/railway.jpeg");
+    background-repeat: no-repeat;
+
+}
+.section h1{
+    position: relative;
+    color: white;
+    text-align: center;
+    font-weight: 900;
+    font-size: 4rem;
+    top: 150px;
+}
+.section p{
+    position: relative;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    font: 2rem;
+    top: 120px;
+/* }
+.section a{
+    /* color: white; */
+} 
+
+.section-container a button{
+    position: relative;
+/* align-items: center; */
+top: 150px;
+left: 600px;
+}
+
+button:hover {
+    background: blue;
+}
+footer{
+    background-color: black;
+    color: white;
+    height: 20px;
+    text-align: center;
+}
